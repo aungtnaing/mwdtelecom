@@ -22,10 +22,10 @@
 							<thead>
 								<tr>
 									<th>#</th>
-
+									<th>Logo</th>
 									<th>Name</th>
-									<th>mName</th>
-									
+									<!-- <th>mName</th> -->
+									<th>description</th>
 									<th></th>
 									<th></th>
 								</tr>
@@ -35,9 +35,10 @@
 								@foreach($categorys as $category)
 								<tr lass="gradeX">   
 									<td>{{ $category->id }}</td>
+									<td><img src="{{ $category->photourl1 }}" width="200" height="100"></td>
 									<td>{{ $category->name }}</td>
-									<td>{{ $category->mname }}</td>
-								
+									<!-- <td>{{ $category->mname }}</td> -->
+									<td>{{ $category->description }}</td>
 									<td>
 										<a class="btn btn-mini btn-primary" href="{{ route("categorys.edit", $category->id ) }}">Edit</a>
 									</td>

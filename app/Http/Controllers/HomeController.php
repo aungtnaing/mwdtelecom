@@ -5,18 +5,16 @@ use Illuminate\Http\Request;
 
 
 use App\Category;
-use App\Maincategory;
-use App\Mainslide;
+
 use App\Testimonials;
-use App\Professors;
-use App\Priorities;
+
 use App\Ourgallerys;
-use App\Events;
+
 use App\Partners;
 
 use View;
 use Config;		
-
+use App\Priorities;
 
 
 class HomeController extends Controller {
@@ -55,52 +53,33 @@ class HomeController extends Controller {
 	public function index(Request $request)
 	{
 		
-		$categorys = Category::All();
-		
-		$mainslides = Mainslide::where('active',1)
-		->orderBy('slideno','asc')
-		->take(4)
-		->get();
 	
-		$testimonials = Testimonials::where('active',1)
+		$categorys = Category::All();
+
+	$priorities = Priorities::All();
+$testimonials = Testimonials::where('active',1)
 						->orderBy('id','DESC')
 						->take(3)
 						->get();
 
-		$professors = Professors::where('active',1)
-						->orderBy('id','DESC')
-						->take(8)
-						->get();				
-
-		$priorities = Priorities::All();
-
-	
+		
 		$ourgallerys = 	Ourgallerys::where('active',1)
 						->orderBy('id','DESC')
 						->take(10)
 						->get();	
 
-		$maincategorys = Maincategory::All();
-
-		$events = Events::where('active',1)
-						->orderBy('id','DESC')
-						->take(4)
-						->get();
-		$partners = Partners::where('active',1)
+	
+		
+			$partners = Partners::where('active',1)
 						->orderBy('id','DESC')
 						->take(10)
 						->get();				
 		return view('pages.home')
 				->with('categorys', $categorys)
-				->with('mainslides', $mainslides)
-				->with('testimonials', $testimonials)
-				->with('professors', $professors)
 				->with('priorities', $priorities)
+				->with('testimonials', $testimonials)
 				->with('ourgallerys', $ourgallerys)
-				->with('maincategorys', $maincategorys)
-				->with('events', $events)
-				->with('partners', $partners);
-				
+				->with('partners', $partners);		
 				
 		
 	}

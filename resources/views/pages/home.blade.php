@@ -2,13 +2,8 @@
 @section('content')
 
 @include('includes.mainslides') 
-@include('includes.about') 
-@include('includes.testimonials') 
-@include('includes.professors') 
-@include('includes.priorities') 
-@include('includes.ourgallerys') 
-@include('includes.courses') 
-@include('includes.partners') 
-@include('includes.events') 
-@include('includes.contact') 
+@include('includes.features') 
+@include('includes.newletter') 
+@include('includes.ipvpn') 
+
 @stop

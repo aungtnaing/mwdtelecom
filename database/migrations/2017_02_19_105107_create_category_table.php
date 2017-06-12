@@ -18,6 +18,7 @@ class CreateCategoryTable extends Migration {
 			
 			$table->string('name');
 			$table->string('mname');
+				$table->string('description', 500);
 			$table->string('photourl1');
 			$table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
 

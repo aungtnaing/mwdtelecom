@@ -9,6 +9,8 @@ use Illuminate\Http\Request;
 use DB;
 use App\Category;
 
+use File;
+use Input;
 
 
 class CategoryController extends Controller {
@@ -62,9 +64,42 @@ class CategoryController extends Controller {
 
 		$category = new Category();
 
+		$imagePath = public_path() . '/images/categorys/';
+		$lastid = DB::table('category')->select('id')->orderBy('id', 'DESC')->first();
+		if($lastid!=null)
+		{
+			$lastid = $lastid->id + 1;
+		}
+		else
+		{
+			$lastid = 1;	
+		}
+		$directory = $lastid;
+		$input = $request->all();
+		$destinationPath = $imagePath . $directory . '/photos';
+		
+		
+		$photourl1 = "";
+		
+		
+		if(Input::file('photourl1')!="")
+		{
+			if(Input::file('photourl1')->isValid())
+			{
+				$name =  time()  . '-photo' . '.' . $input['photourl1']->getClientOriginalExtension();
+				File::exists($destinationPath) or File::makeDirectory($destinationPath, 0777, true, true);
+				Input::file('photourl1')->move($destinationPath, $name); // uploading file to given path
+				$photourl1 = "/images/categorys/" . $directory . '/photos/' .  $name;
+			
+			}
+
+		}
+
+
 		$category->name = $request->input("name");
 		$category->mname = $request->input("mname");
-	
+		$category->description = $request->input("description");
+		$category->photourl1 = $photourl1;
 		$category->save();
 		return redirect()->route("categorys.index");
 	}
@@ -124,10 +159,52 @@ class CategoryController extends Controller {
 		}
 		
 
-		
+		$imagePath = public_path() . '/images/categorys/';
+	
+		$directory = $id;
+
+
+		$input = $request->all();
+		$destinationPath = $imagePath . $directory . '/photos';
+	
+		$photourl1 = $category->photourl1;
+		// ini_set('post_max_size', '64M');
+		// ini_set('upload_max_filesize', '64M');
+
+
+		// var_dump(Input::file('photourl1'));
+		// die();
+		if(Input::file('photourl1')!="")
+		{
+			// var_dump('go');
+			// die();
+			
+			
+
+			 if(Input::file('photourl1')->isValid())
+			 {
+				if($photourl1!="")
+				{
+					if(file_exists(public_path() .$photourl1))
+					{
+						unlink(public_path() . $photourl1);
+					}
+				}
+					
+
+
+				$name =  time() . '-photo' . '.' . $input['photourl1']->getClientOriginalExtension();
+				File::exists($destinationPath) or File::makeDirectory($destinationPath, 0777, true, true);
+				Input::file('photourl1')->move($destinationPath, $name); // uploading file to given path
+				$photourl1 = "/images/categorys/" . $directory . '/photos/' .  $name;
+			 }
+
+		}
+	
 		$category->name = $request->input("name");
 		$category->mname = $request->input("mname");
-		
+		$category->description = $request->input("description");
+		$category->photourl1 = $photourl1;
 		$category->save();
 		
 		return redirect()->route("categorys.index");
