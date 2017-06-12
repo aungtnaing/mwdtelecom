@@ -47,17 +47,7 @@
 							</div> 
 
 
-								<div class="control-group">
-						<label class="control-label">Maincategory</label>
-						<br>
-						<select name="maincategory">
-						@foreach($maincategorys as $maincategory)
-						<option value="{{ $maincategory->id }}">{{ $maincategory->name }}</option>
-						@endforeach	
-						</select>
-
-					</div>
-
+							
 
 							<div class="form-actions">
 								<input class="btn btn-primary" type="submit" value="Save"> 

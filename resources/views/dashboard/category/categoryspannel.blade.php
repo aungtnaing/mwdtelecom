@@ -25,7 +25,7 @@
 
 									<th>Name</th>
 									<th>mName</th>
-									<th>Main category</th>
+									
 									<th></th>
 									<th></th>
 								</tr>
@@ -37,7 +37,7 @@
 									<td>{{ $category->id }}</td>
 									<td>{{ $category->name }}</td>
 									<td>{{ $category->mname }}</td>
-									<td>{{ $category->maincategory->name }}</td>
+								
 									<td>
 										<a class="btn btn-mini btn-primary" href="{{ route("categorys.edit", $category->id ) }}">Edit</a>
 									</td>

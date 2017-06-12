@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 use DB;
 use App\Category;
-use App\Maincategory;
+
 
 
 class CategoryController extends Controller {
@@ -35,11 +35,10 @@ class CategoryController extends Controller {
 	 */
 	public function create()
 	{
-		//
-		$maincategorys = Maincategory::All();
+		
 
 
-		return view("dashboard.category.categorycreate")->with('maincategorys', $maincategorys);
+		return view("dashboard.category.categorycreate");
 
 
 	}
@@ -65,7 +64,7 @@ class CategoryController extends Controller {
 
 		$category->name = $request->input("name");
 		$category->mname = $request->input("mname");
-		$category->maincategoryid = $request->input("maincategory");
+	
 		$category->save();
 		return redirect()->route("categorys.index");
 	}
@@ -91,12 +90,11 @@ class CategoryController extends Controller {
 	public function edit($id)
 	{
 		//
-		$maincategorys = Maincategory::All();	
+	
 		
 		$category = Category::find($id);
 
 		return view('dashboard.category.categoryedit')
-					->with('maincategorys', $maincategorys)
 					->with('category',$category);
 	}
 
@@ -129,7 +127,7 @@ class CategoryController extends Controller {
 		
 		$category->name = $request->input("name");
 		$category->mname = $request->input("mname");
-		$category->maincategoryid = $request->input("maincategory");
+		
 		$category->save();
 		
 		return redirect()->route("categorys.index");

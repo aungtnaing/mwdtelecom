@@ -46,18 +46,7 @@
 								</div>
 							</div> 
 
-							<div class="control-group">
-						<label class="control-label">Maincategory</label>
-						<br>
-						<select name="maincategory">
-						<option value="{{ $category->maincategoryid }}">{{ $category->maincategory->name }}</option>
-						@foreach($maincategorys as $maincategory)
-						<option value="{{ $maincategory->id }}">{{ $maincategory->name }}</option>
-						@endforeach	
-						</select>
-
-					</div>
-
+				
 
 
 							<div class="form-actions">

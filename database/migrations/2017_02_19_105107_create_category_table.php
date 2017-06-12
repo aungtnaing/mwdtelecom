@@ -23,12 +23,9 @@ class CreateCategoryTable extends Migration {
 
 			$table->timestamp('updated_at')->default(DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));
 
+
 		});
-	Schema::table('category', function (Blueprint $table) {
-			
-			$table->integer('maincategoryid')->unsigned();
-			$table->foreign('maincategoryid')->references('id')->on('maincategory')->onDelete('cascade');
-		});
+	
 
 	}
 
