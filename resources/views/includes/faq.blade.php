@@ -13,9 +13,9 @@
                                 </div>
                             </div>
 		                    <div class="faq-wrapper fix">
-                                <p>Lorem Ipsum is simply dum of the printing and typesetting industry. Lorem  has been the industry's standard dummy. Lorem Ipsu sim dummy text of the printing and typesetting industry. </p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore fuga eum quasi quis quibusdam fugit possimus officiis, ipsam laboriosam enim in explicabo assumenda sed magni.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore fuga eum quasi quis quibusdam fugit possimus officiis, ipsam laboriosam enim in explicabo assumenda sed magni.</p>
+                                <p>This document answers the most frequently asked questions related to Multiprotocol Label Switching (MPLS) from a beginner level.</p>
+                                <p>.</p>
+                            
                             </div>
 		                </div>
 		            </div>
@@ -25,13 +25,13 @@
                                 <div class="panel-heading" role="tab" id="headingOne">
                                     <h4 class="panel-title">
                                         <a role="button" data-toggle="collapse" data-parent="#order-review" href="#one">
-                                            <span></span> Support For VoIP for Your StartUP Business?
+                                            <span></span> What is Multi-Protocol Label Switching (MPLS)?
                                         </a>
                                     </h4>
                                 </div>    
                                 <div id="one" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                                     <div class="panel-body">     
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                        <p>MPLS is a packet-forwarding technology which uses labels in order to make data forwarding decisions. With MPLS, the Layer 3 header analysis is done just once (when the packet enters the MPLS domain). Label inspection drives subsequent packet forwarding.</p>
                                         <span class="arrow"></span>
                                     </div>
                                 </div>           
@@ -40,13 +40,13 @@
                                 <div class="panel-heading" role="tab" id="headingTwo">
                                     <h4 class="panel-title">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#order-review" href="#two">
-                                            <span></span> Support For VoIP for Your Lorem Ipsum is simply  StartUP Business?
+                                            <span></span> What is a label? What is the structure of the label?
                                         </a>
                                     </h4>
                                 </div>    
                                 <div id="two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                     <div class="panel-body">     
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                        <p>A label is a short, four-byte, fixed-length, locally-significant identifier which is used in order to identify a Forwarding Equivalence Class (FEC). The label which is put on a particular packet represents the FEC to which that packet is assigned.</p>
                                         <span class="arrow"></span>
                                     </div> 
                                 </div>
@@ -55,13 +55,13 @@
                                 <div class="panel-heading" role="tab" id="headingThree">
                                     <h4 class="panel-title">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#order-review" href="#three">
-                                            <span></span> Support For VoIP for Your Lorem Ipsum is simply  StartUP Business?
+                                            <span></span> Where will the label be imposed in a packet?
                                         </a>
                                     </h4>
                                 </div>    
                                 <div id="three" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                     <div class="panel-body">     
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                        <p>The label is imposed between the data link layer (Layer 2) header and network layer (Layer 3) header. The top of the label stack appears first in the packet, and the bottom appears last. The network layer packet immediately follows the last label in the label stack.</p>
                                         <span class="arrow"></span>
                                     </div>
                                 </div>

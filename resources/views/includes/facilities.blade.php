@@ -5,7 +5,7 @@
                     <div class="col-lg-6 col-md-8">
                         <div class="section-title">
                             <h2>Facilities for Business</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                            <p>.</p>
                         </div>
                     </div>
                 </div>
@@ -23,8 +23,8 @@
 		                                <i class="fa fa-bar-chart"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h3>VoIP For Usiness Support</h3>
-		                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+		                                <h5>.</h5>
+		                                <p>Fully Dedicated/ fully-managed optical wavelength service.</p>
 		                            </div>
 		                        </div>
 		                        <div class="single-feature">
@@ -32,8 +32,8 @@
 		                                <i class="fa fa-headphones"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h3>Call Center Software</h3>
-		                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+		                                <h5>.</h5>
+		                                <p>State-of-the-art DWDM network technology (100G x 40 channels).</p>
 		                            </div>
 		                        </div>
 		                        <div class="single-feature">
@@ -41,8 +41,8 @@
 		                                <i class="fa fa-ioxhost"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h3>Hosted PBX</h3>
-		                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+		                                <h5>.</h5>
+		                                <p>National and metro service connectivity (BIGGEST network) .</p>
 		                            </div>
 		                        </div>
 		                        <div class="single-feature">
@@ -50,8 +50,8 @@
 		                                <i class="fa fa-headphones"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h3>Call Center Software</h3>
-		                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+		                                <h5>.</h5>
+		                                <p>A service level agreement (SLA) to guarantee the performance.</p>
 		                            </div>
 		                        </div>
 		                        <div class="single-feature">
@@ -59,8 +59,44 @@
 		                                <i class="fa fa-ioxhost"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h3>Hosted PBX</h3>
-		                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+		                                <h5>.</h5>
+		                                <p>Unprotected or protected service options .</p>
+		                            </div>
+		                        </div>
+		                         <div class="single-feature">
+		                            <div class="feature-icon">
+		                                <i class="fa fa-ioxhost"></i>
+		                            </div>
+		                            <div class="feature-text">
+		                                <h5>.</h5>
+		                                <p>24/7/365 network monitoring includes: fault management of network transport alarms, surveillance, dispatch and fix verification/tracking.</p>
+		                            </div>
+		                        </div>
+		                         <div class="single-feature">
+		                            <div class="feature-icon">
+		                                <i class="fa fa-ioxhost"></i>
+		                            </div>
+		                            <div class="feature-text">
+		                                <h5>.</h5>
+		                                <p>Guarantee low packet loss/delay.</p>
+		                            </div>
+		                        </div>
+		                         <div class="single-feature">
+		                            <div class="feature-icon">
+		                                <i class="fa fa-ioxhost"></i>
+		                            </div>
+		                            <div class="feature-text">
+		                                <h5>.</h5>
+		                                <p>Secure connectivity.</p>
+		                            </div>
+		                        </div>
+		                          <div class="single-feature">
+		                            <div class="feature-icon">
+		                                <i class="fa fa-ioxhost"></i>
+		                            </div>
+		                            <div class="feature-text">
+		                                <h5>.</h5>
+		                                <p>Guaranteed bandwidth.</p>
 		                            </div>
 		                        </div>
 		                    </div>
