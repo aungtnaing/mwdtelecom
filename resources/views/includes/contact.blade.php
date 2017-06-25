@@ -26,9 +26,9 @@
                                 </div>
                                 <div class="contact-text">
                                     <span>
-                                        +88092 (1) 5184203
+                                        (951) 652315, 095100081, 
                                         <br>
-                                        +00 (22) 225455565
+                                        095100082, 0973207766
                                     </span>
                                 </div>
                             </div>
@@ -40,9 +40,9 @@
                                 </div>
                                 <div class="contact-text">
                                     <span>
-                                        <a href="#">info@devitems.com</a>
+                                        <a href="#">www.mwdtelecom.com</a>
                                             <br>
-                                        <a href="#">devitems@email.com</a>
+                                        <a href="#">info@mwdtechnologies.com</a>
                                     </span>
                                 </div>
                             </div>
@@ -53,10 +53,7 @@
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                                 </div>
                                 <div class="contact-text">
-                                    <span>
-                                        ur address goes here,
-                                        <br>
-                                        street,Crossroad123.
+                                    <span>Building 10, Phase III<br> MICT Park, Hlaing
                                     </span>
                                 </div>
                             </div>

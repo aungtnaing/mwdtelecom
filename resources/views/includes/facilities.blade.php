@@ -23,7 +23,7 @@
 		                                <i class="fa fa-bar-chart"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h5>.</h5>
+		                                <!-- <h5>.</h5> -->
 		                                <p>Fully Dedicated/ fully-managed optical wavelength service.</p>
 		                            </div>
 		                        </div>
@@ -32,7 +32,7 @@
 		                                <i class="fa fa-headphones"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h5>.</h5>
+		                                <!-- <h5>.</h5> -->
 		                                <p>State-of-the-art DWDM network technology (100G x 40 channels).</p>
 		                            </div>
 		                        </div>
@@ -41,7 +41,7 @@
 		                                <i class="fa fa-ioxhost"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h5>.</h5>
+		                                <!-- <h5>.</h5> -->
 		                                <p>National and metro service connectivity (BIGGEST network) .</p>
 		                            </div>
 		                        </div>
@@ -50,7 +50,7 @@
 		                                <i class="fa fa-headphones"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h5>.</h5>
+		                                <!-- <h5>.</h5> -->
 		                                <p>A service level agreement (SLA) to guarantee the performance.</p>
 		                            </div>
 		                        </div>
@@ -59,7 +59,7 @@
 		                                <i class="fa fa-ioxhost"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h5>.</h5>
+		                               <!--  <h5>.</h5> -->
 		                                <p>Unprotected or protected service options .</p>
 		                            </div>
 		                        </div>
@@ -68,7 +68,7 @@
 		                                <i class="fa fa-ioxhost"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h5>.</h5>
+		                                <!-- <h5>.</h5> -->
 		                                <p>24/7/365 network monitoring includes: fault management of network transport alarms, surveillance, dispatch and fix verification/tracking.</p>
 		                            </div>
 		                        </div>
@@ -77,7 +77,7 @@
 		                                <i class="fa fa-ioxhost"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h5>.</h5>
+		                                <!-- <h5>.</h5> -->
 		                                <p>Guarantee low packet loss/delay.</p>
 		                            </div>
 		                        </div>
@@ -86,7 +86,7 @@
 		                                <i class="fa fa-ioxhost"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h5>.</h5>
+		                                <!-- <h5>.</h5> -->
 		                                <p>Secure connectivity.</p>
 		                            </div>
 		                        </div>
@@ -95,7 +95,7 @@
 		                                <i class="fa fa-ioxhost"></i>
 		                            </div>
 		                            <div class="feature-text">
-		                                <h5>.</h5>
+		                                <!-- <h5>.</h5> -->
 		                                <p>Guaranteed bandwidth.</p>
 		                            </div>
 		                        </div>

@@ -1,7 +1,7 @@
 (function ($) {
  "use strict";
     
-    var myCenter=new google.maps.LatLng(30.249796, -97.754667);
+    var myCenter=new google.maps.LatLng(16.851018, 96.129767);
             function initialize()
             {
                 var mapProp = {

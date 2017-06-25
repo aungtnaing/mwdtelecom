@@ -1490,7 +1490,7 @@ button.nav-btn span {
 .footer-widget-area .col-md-3:nth-child(2) .single-footer-widget,
 .footer-widget-area .col-md-3:nth-child(3) .single-footer-widget,
 .footer-widget-area .col-md-3:nth-child(4) .single-footer-widget {
-    padding-left: 70px;
+   /* padding-left: 70px;*/
 }
 .c-content {
     color: #333333;

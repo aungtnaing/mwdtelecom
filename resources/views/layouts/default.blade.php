@@ -14,9 +14,6 @@
 	
 
 	
-	<!-- <script src="http://maps.google.com/maps/api/js?key=AIzaSyAZ_gB5ISNkZ4DvI6Luar3clZ1rW70tnok"></script> -->
-
-	
 
 
 	  <script src="<?php echo url(); ?>/js/vendor/jquery-1.12.4.min.js"></script>

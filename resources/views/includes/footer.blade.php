@@ -10,38 +10,43 @@
                             </div>
                             <div class="footer-content">
                                 <div class="contact-info">
-                                    <h4 class="c-content">Address : </h4>
-                                    <span>77/sevent Streeth<br>USA. Zip 4500.</span>
+                                    <h4 class="c-content">Address : Head Office</h4>
+                                    <span>Building 10, Phase III<br> MICT Park, Hlaing Campus, Hlaing Township, <br> Yangon, Myanmar..</span>
                                 </div>
                                 <div class="contact-info">
                                     <h4 class="c-content">Phone :   </h4>
-                                    <span>+88092 (1) 5184203<br>+00 (22) 225455565</span>
+                                    <span> (951) 652315, 095100081, 095100082, 0973207766 <br> FAX : (951) 652315</span>
                                 </div>
                                 <div class="contact-info">
                                     <h4 class="c-content">E-mail :  </h4>
-                                    <span>info@devitems.com<br>devitems@email.com</span>
+                                    <span>info@mwdtechnologies.com</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-4">
                         <div class="single-footer-widget">
-                            <div class="footer-title">
+                          <div class="footer-title">
                                 <h1>02</h1>
-                                <h2>Information</h2>
+                                <h2>Contact</h2>
                             </div>
                             <div class="footer-content">
-                                <ul class="footer-widget-list">
-                                    <li><a href="#">About VoIP</a></li>
-                                    <li><a href="#">About Our Service</a></li>
-                                    <li><a href="#">Out Bulk SMS Service</a></li>
-                                    <li><a href="#">Online Support</a></li>
-                                    <li><a href="#">Cloud Storage</a></li>
-                                </ul>
+                                <div class="contact-info">
+                                    <h4 class="c-content">Address : Nay Pyi Taw </h4>
+                                    <span>No.Pa/19,:<br>Pwe Yone Tan <br>  Myoma Zay, Nay Pyi Taw.</span>
+                                </div>
+                                <div class="contact-info">
+                                    <h4 class="c-content">Phone :   </h4>
+                                    <span> (9567) 420913 <br> FAX : (9567) 420913</span>
+                                </div>
+                                <div class="contact-info">
+                                    <h4 class="c-content">E-mail :  </h4>
+                                    <span>info@mwdtechnologies.com</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-4">
+           <!--          <div class="col-md-3 col-sm-4">
                         <div class="single-footer-widget">
                             <div class="footer-title">
                                 <h1>03</h1>
@@ -74,7 +79,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
