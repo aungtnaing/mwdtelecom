@@ -8,7 +8,7 @@
 @include('includes.faq')
 @include('includes.facilities')
 @include('includes.service')
-@include('includes.testimonials')
+<!-- @include('includes.testimonials') -->
 @include('includes.contact')
 
 @stop
