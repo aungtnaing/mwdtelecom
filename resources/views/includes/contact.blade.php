@@ -2,16 +2,22 @@
             <div class="container">
                 <div class="section-title text-center">
                     <h2>get in touch</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>Let get together.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-offset-2 col-md-8 text-center">
                         <div class="contact-from">
-                            <form id="contact-form" action="mail.php" method="post">
+                            
+                            <form action="{{ route("contactus.store") }}" method="POST">
+                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
                                 <input name="name" type="text" placeholder="Name">
                                 <input name="email" type="text" placeholder="Email">
-                                <textarea name="message" placeholder="Your message"></textarea>
-                                <input class="submit" type="submit" value="SUBMIT">
+                                 <input name="phone" type="text" placeholder="Phone">
+                                <textarea name="messagecontent" placeholder="Your message"></textarea>
+                               
+                                <!-- <button type="submit" class="submit">SUBMIT</button> -->
+                                <button type="submit" class="btn btn-default">Send Message</button>
                             </form>
                             <p class="form-messege"></p>
                         </div>

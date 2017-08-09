@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="col-md-2 col-sm-4 col-xs-6">
                         <div class="logo">
-                            <a href="index.html"><img src="img/logo.png" alt="AirIP"></a>
+                            <a href="/"><img src="img/logo.png" alt="AirIP"></a>
                         </div>
                     </div>
                     <div class="col-md-8 hidden-sm hidden-xs">

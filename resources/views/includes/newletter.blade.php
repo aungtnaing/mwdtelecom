@@ -5,7 +5,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-10 col-lg-offset-1 col-sm-12 col-xs-12">
-                                <div class="newsletter-container">
+                           <!--      <div class="newsletter-container">
                                     <div class="newsletter-info">
                                         <h3>NEWSLETTER..</h3>
                                         <h3 class="text-light">You want to know our latest updates</h3>
@@ -15,15 +15,15 @@
                                             <input id="mc-email" type="email" name="email" placeholder="Enter your E-mail">
                                             <button id="mc-submit" type="submit"><i class="fa fa-send"></i></button>  
                                         </form>
-                                        <!-- mailchimp-alerts Start -->
+                                        
                                         <div class="mailchimp-alerts">
-                                            <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
-                                            <div class="mailchimp-success"></div><!-- mailchimp-success end -->
-                                            <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                                            <div class="mailchimp-submitting"></div>
+                                            <div class="mailchimp-success"></div>
+                                            <div class="mailchimp-error"></div>
                                         </div>
-                                        <!-- mailchimp-alerts end -->
+                                       
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>

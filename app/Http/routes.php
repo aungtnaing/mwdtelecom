@@ -26,7 +26,8 @@
 		Route::get('homemyanmar', 'LanguageController@homemyanmar');
 
 
-
+			Route::resource('contactus','ContactusController');
+			
 		Route::get('aboutus', function() {
 
 			$categorys = Category::All();
