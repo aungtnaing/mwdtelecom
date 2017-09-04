@@ -682,7 +682,9 @@ button.nav-btn span {
   margin-top: -70px;
 }
 .single-service-container {
-    background: rgba(7, 39, 56, 0.69) none repeat scroll 0 0;
+    background: rgba(38, 50, 56, 0.5) none repeat scroll 0 0;
+    /*rgba(7, 39, 56, 0.69) none repeat scroll 0 0;*/
+
     /*#263238 none repeat scroll 0 0;*/
     box-shadow: 0 0 20px 14px rgba(0, 0, 0, 0.2);
     margin-top: -97px;
