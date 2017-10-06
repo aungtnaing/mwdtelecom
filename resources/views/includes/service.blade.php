@@ -59,7 +59,7 @@
                     </div> -->
 		        </div>
 		        <div class="service-right">
-		            <img src="img/banner/5.png" alt="">
+		            <img src="img/banner/5.jpg" alt="">
 		        </div>
 		    </div>
 		</div>

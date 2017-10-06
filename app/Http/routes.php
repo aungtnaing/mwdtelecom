@@ -30,10 +30,40 @@
 			
 		Route::get('aboutus', function() {
 
-			$categorys = Category::All();
 			
-			return view('pages.about')
-			->with('categorys', $categorys);
+			
+			return view('si.pages.aboutus');
+			
+			
+			
+		});
+
+		Route::get('enterprise', function() {
+
+			
+			
+			return view('si.pages.enterprise');
+			
+			
+			
+		});
+
+		Route::get('broadcasting', function() {
+
+			
+			
+			return view('si.pages.broadcasting');
+			
+			
+			
+		});
+
+		Route::get('digital', function() {
+
+			
+			
+			return view('si.pages.digital');
+			
 			
 			
 		});
@@ -49,7 +79,14 @@
 		});
 
 
+		Route::get('systemi', function() {
 
+			
+			
+			return view('si.pages.home');
+			
+			
+		});
 		
 
 

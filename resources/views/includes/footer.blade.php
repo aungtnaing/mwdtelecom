@@ -90,7 +90,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="footer-text">
-                            <span class="block">Copyright&copy; 2017 <a href="#">HasTech</a>. All rights reserved.</span>
+                            <span class="block">Copyright&copy; 2017 <a href="#">Myanmar World Distribution</a>. All rights reserved.</span>
                         </div>
                     </div>
                 </div>
