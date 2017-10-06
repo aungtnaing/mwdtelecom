@@ -92,6 +92,7 @@
                         <div class="footer-text">
                             <span class="block">Copyright&copy; 2017 <a href="#">Myanmar World Distribution</a>. All rights reserved.</span>
                         </div>
+                        <div class="developed"><a target="_blank" href="{{ url('/sitemap') }}">sitemap</a> </div>
                     </div>
                 </div>
             </div>

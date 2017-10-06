@@ -22,6 +22,15 @@
 		Route::get('en', 'LanguageController@changeen');
 
 		
+		Route::get('sitemap', function() {
+
+			return view('pages.sitemap');
+			
+			
+			
+		});
+
+		
 
 		Route::get('homemyanmar', 'LanguageController@homemyanmar');
 

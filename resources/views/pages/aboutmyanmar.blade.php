@@ -20,7 +20,7 @@
 			<p>
 
 
-				Logimedia Publishing was established in 2007 and remains the leading Directory and Guide publishers in Myanmar. Logimedia publishes the leading Construction Industry Directory titles, the leading Hotels & Tourism Guide, Myanmar Travel Guide, My Magical Myanmar plus significant online products including<a href="www.mymagicalmyanmar.com"> www.mymagicalmyanmar.com </a>a major travel website for Myanmar and The Red Book (Myanmar Commercial Directory).Our products specifically target the high-spending local, corporate and tourist sector. Each title is the leading branding vehicles in its sector and also repeat & referral business for our clients
+				MWD Communication is licensed Network Service facilities provider with its own DWDM / SDH technology metro IP network to serve IP-VPN, wholesale DIA to ISPs, large corporates, government enterprises, banks and financial services organisations, insurance industry, healthcare industry, hospitality industry and operators in a secure private network that provides any-to-any connections at an affordable cost. The service provides connection to the core DWDM/SDH network throught a range of mechanisms, including; traditional leased line, Ethernet based high bandwidth services, fledible bandwidth services & DSL technologies. It is designed to securely deliver wholesale domestic circuit and international circuit to transmit voice and data in the high quality service level performance.
 				<p>
 
 
