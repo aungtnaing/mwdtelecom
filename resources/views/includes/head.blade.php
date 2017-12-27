@@ -13,6 +13,18 @@
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet"> 
+   
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111649737-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111649737-1');
+</script>
+
+
+
         
         <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=785314831670901&ev=PageView&noscript=1"

@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Category;
 
 use App\Testimonials;
-
+use App\Mainslides;
 use App\Ourgallerys;
 
 use App\Partners;
@@ -68,7 +68,8 @@ $testimonials = Testimonials::where('active',1)
 						->take(10)
 						->get();	
 
-	
+		$mainslide = Mainslides::All();
+
 		
 			$partners = Partners::where('active',1)
 						->orderBy('id','DESC')
@@ -79,7 +80,8 @@ $testimonials = Testimonials::where('active',1)
 				->with('priorities', $priorities)
 				->with('testimonials', $testimonials)
 				->with('ourgallerys', $ourgallerys)
-				->with('partners', $partners);		
+				->with('partners', $partners)
+				->with('mainslide', $mainslide);		
 				
 		
 	}

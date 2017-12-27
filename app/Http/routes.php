@@ -160,7 +160,8 @@
 				{
 					
 					Route::resource('testimonials','TestimonialsController');
-				
+					Route::resource('mainslides','MainslideController');
+
 					Route::resource('partners','PartnersController');
 						Route::resource('priorities','PrioritiesController');
 				

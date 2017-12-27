@@ -7,7 +7,7 @@ use App\Testimonials;
 
 use App\Ourgallerys;
 use App\Partners;
-
+use App\Mainslides;
 
 use View;
 use Config;
@@ -52,7 +52,7 @@ class WelcomeController extends Controller {
 
 		$categorys = Category::All();
 
-	
+	$mainslide = Mainslides::All();
 $testimonials = Testimonials::where('active',1)
 						->orderBy('id','DESC')
 						->take(3)
@@ -69,13 +69,16 @@ $testimonials = Testimonials::where('active',1)
 			$partners = Partners::where('active',1)
 						->orderBy('id','DESC')
 						->take(10)
-						->get();				
+						->get();	
+
+						
 		return view('pages.home')
 				->with('categorys', $categorys)
 				->with('priorities', $priorities)
 				->with('testimonials', $testimonials)
 				->with('ourgallerys', $ourgallerys)
-				->with('partners', $partners);		
+				->with('partners', $partners)
+				->with('mainslide', $mainslide);		
 	}
 
 	public function myanmarindex()
