@@ -10,8 +10,13 @@
         <base href="http://mwdtelecom.com/sitemap">
         <!-- Favicon Icon -->
         <link rel="shortcut icon" type="image/x-icon" href="<?php echo url(); ?>/img/favicon.ico">
-    
-    <!-- Google Fonts -->
+  
+<!--   gsuite header tab  
+ -->  
+<meta name="google-site-verification" content="IXFL3-3jlYbccDTaNOwgG9OtevcLOZ6ukLLsAs2g2Yw" />
+<!-- gsuite end
+ -->
+   <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet"> 
    
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111649737-1"></script>
