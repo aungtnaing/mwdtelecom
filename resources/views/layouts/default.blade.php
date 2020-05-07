@@ -28,7 +28,8 @@
         <script src="<?php echo url(); ?>/js/jquery.meanmenu.js"></script>
         <script src="<?php echo url(); ?>/js/plugins.js"></script>
         <!-- google map api -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_qDiT4MyM7IxaGPbQyLnMjVUsJck02N0"></script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_qDiT4MyM7IxaGPbQyLnMjVUsJck02N0"></script> -->
+        <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCXjxc8STPsTI4t3U6ZfgreQuEq81PNmxg"></script>
         <script src="<?php echo url(); ?>/js/map.js"></script>
         <script src="<?php echo url(); ?>/js/main.js"></script>
 
