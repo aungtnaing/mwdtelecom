@@ -11,9 +11,9 @@
                     <div class="text-content-wrapper">
                         <div class="text-content">
                             <h1 class="title1">{{ $mainslide[0]->mtitle }}</h1>
-                            <p class="myanmar3"><b>{{ $mainslide[0]->mdescription }}</b></p>
-                            <p class="myanmar3"><b>Our new braniding service(ေခတ္ပညာ)</b></p>
-                            <p class="myanmar3">ေခတ္ပညာ(Khit Pyinnyar) သည္ ျမန္မာနိုင္ငံ တစ္ဝွမ္းရွိ မိဘ ျပည္သူမ်ား အတြက္ ေခတ္ႏွင္႔ အညီ လုိအပ္ေသာ ပညာရပ္မ်ားကုိ ေနရာမေရြး ၊အခ်ိန္မေရြး၊ အသက္ရြယ္မေရြး ေလ့လာဆည္းပူး နို္င္ရန္ ရည္ရြယ္ခ်က္ျဖင္႔ တည္ေဆာက္ထားျခင္း ျဖစ္ပါသည္။ ေခတ္ပညာ(Khit Pyinnyar)ကုိေလ႔လာသင္ယူျခင္းအားျဖင္႔ အသိပညာတစ္ခု အတတ္ပညာတစ္ခု ရရွိသြားလွ်င္ပင္ ေခတ္ပညာ ေနျဖင္႔ ဝမ္းေျမာက္ဂုဏ္ယူေနမည္ျဖစ္သည္။ </p>
+                            <p class="myanmar3">{{ $mainslide[0]->mdescription }}</p>
+                            <h4 class="myanmar3">Our new braniding service(ခေတ်ပညာ)</h4>
+                            <p class="myanmar3">ခေတ်ပညာ(Khit Pyinnyar) သည် မြန်မာနိုင်ငံ တစ်ဝှမ်းရှိ မိဘ ပြည်သူများ အတွက် ခေတ်နှင့် အညီ လိုအပ်သော ပညာရပ်များကို နေရာမရွေး ၊အချိန်မရွေး၊ အသက်ရွယ်မရွေး လေ့လာဆည်းပူး နို်င်ရန် ရည်ရွယ်ချက်ဖြင့် တည်ဆောက်ထားခြင်း ဖြစ်ပါသည်။ ခေတ်ပညာ(Khit Pyinnyar)ကိုလေ့လာသင်ယူခြင်းအားဖြင့် အသိပညာတစ်ခု အတတ်ပညာတစ်ခု ရရှိသွားလျှင်ပင် ခေတ်ပညာ နေဖြင့် ဝမ်းမြောက်ဂုဏ်ယူနေမည်ဖြစ်သည်။ </p>
                             <div class="banner-button">
                                 <a class="default-btn button" href="https://khitpyinnyar.com">Learn More..</a>                 
                                                   
